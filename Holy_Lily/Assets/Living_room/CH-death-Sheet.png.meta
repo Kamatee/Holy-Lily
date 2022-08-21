@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f34ce7283705f4d46a2880b33c8c77a7
+guid: d276776d782bc5044b3c813324a4eea4
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: -122798722396354389
     second: CH-death-Sheet_6
+  - first:
+      213: 2443133491852720860
+    second: CH-death-Sheet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,9 +130,9 @@ TextureImporter:
       name: CH-death-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 63
         y: 0
-        width: 120
+        width: 25
         height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -148,9 +151,9 @@ TextureImporter:
       name: CH-death-Sheet_1
       rect:
         serializedVersion: 2
-        x: 120
+        x: 181
         y: 0
-        width: 120
+        width: 27
         height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -169,9 +172,9 @@ TextureImporter:
       name: CH-death-Sheet_2
       rect:
         serializedVersion: 2
-        x: 240
+        x: 294
         y: 0
-        width: 120
+        width: 33
         height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -190,9 +193,9 @@ TextureImporter:
       name: CH-death-Sheet_3
       rect:
         serializedVersion: 2
-        x: 360
+        x: 410
         y: 0
-        width: 120
+        width: 38
         height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -211,9 +214,9 @@ TextureImporter:
       name: CH-death-Sheet_4
       rect:
         serializedVersion: 2
-        x: 480
+        x: 515
         y: 0
-        width: 120
+        width: 50
         height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -232,12 +235,12 @@ TextureImporter:
       name: CH-death-Sheet_5
       rect:
         serializedVersion: 2
-        x: 600
+        x: 734
         y: 0
-        width: 120
+        width: 71
         height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5094245, y: 0.4874348}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,9 +256,9 @@ TextureImporter:
       name: CH-death-Sheet_6
       rect:
         serializedVersion: 2
-        x: 720
+        x: 627
         y: 0
-        width: 120
+        width: 57
         height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -266,6 +269,27 @@ TextureImporter:
       bones: []
       spriteID: ba881bc663bbb4ef0800000000000000
       internalID: -122798722396354389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CH-death-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 0
+        width: 71
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdabdb077f0c7e120800000000000000
+      internalID: 2443133491852720860
       vertices: []
       indices: 
       edges: []

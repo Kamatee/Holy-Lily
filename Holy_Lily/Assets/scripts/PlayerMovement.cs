@@ -10,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private float dirX= 0f;
 
-    [SerializeField]private float moveSpeed = 7f;
+    [SerializeField] float moveSpeed = 7f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +26,26 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // poruszanie siw prawo lewo
         dirX = Input.GetAxisRaw("Horizontal");
+        //kied lewy shift wciœniety postaæ przyœpiesza
+        if (Input.GetKey(KeyCode.LeftShift))
+        {             
+            moveSpeed = 15f;
+            anim.SetBool("run", true);
+        }
+        else
+        {
+            moveSpeed = 7f;
+            anim.SetBool("run", false);
+        }
+        
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
         UpdateAnimation();
 
-
+        // poruszanie siê w prawo lewo przed dodanie biegania
+        //dirX = Input.GetAxisRaw("Horizontal");
+        //rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        //UpdateAnimation();
 
 
 

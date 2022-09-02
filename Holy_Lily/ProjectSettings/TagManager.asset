@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ItemToCollect
   - Death
+  - Note
   layers:
   - Default
   - TransparentFX

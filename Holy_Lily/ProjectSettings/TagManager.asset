@@ -50,3 +50,9 @@ TagManager:
   - name: Terrain
     uniqueID: 2935261683
     locked: 0
+  - name: GemBlack
+    uniqueID: 3792093197
+    locked: 0
+  - name: Gem
+    uniqueID: 258367175
+    locked: 0

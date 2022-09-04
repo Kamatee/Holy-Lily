@@ -1488,6 +1488,7 @@ GameObject:
   - component: {fileID: 272946443}
   - component: {fileID: 272946442}
   - component: {fileID: 272946445}
+  - component: {fileID: 272946447}
   - component: {fileID: 272946446}
   m_Layer: 5
   m_Name: Red_Gem
@@ -1643,6 +1644,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myCanvas: {fileID: 58036646}
+  id: 1
+--- !u!225 &272946447
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272946440}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &484086451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,6 +1845,7 @@ GameObject:
   - component: {fileID: 523515228}
   - component: {fileID: 523515231}
   - component: {fileID: 523515232}
+  - component: {fileID: 523515233}
   m_Layer: 5
   m_Name: Blue_Gem
   m_TagString: Untagged
@@ -1985,6 +2000,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myCanvas: {fileID: 58036646}
+  id: 2
+--- !u!225 &523515233
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523515226}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &530386913
 GameObject:
   m_ObjectHideFlags: 0
@@ -2386,6 +2414,7 @@ GameObject:
   - component: {fileID: 891540375}
   - component: {fileID: 891540374}
   - component: {fileID: 891540373}
+  - component: {fileID: 891540376}
   m_Layer: 5
   m_Name: Blue_Gem-Black
   m_TagString: Untagged
@@ -2501,6 +2530,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891540371}
   m_CullTransparentMesh: 1
+--- !u!114 &891540376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891540371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f98820a923dc4b4cb2e6eb8163c38c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
 --- !u!1 &918698144
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,6 +2936,7 @@ GameObject:
   - component: {fileID: 1133764265}
   - component: {fileID: 1133764264}
   - component: {fileID: 1133764263}
+  - component: {fileID: 1133764266}
   m_Layer: 5
   m_Name: Red_Gem-Black
   m_TagString: Untagged
@@ -3009,6 +3052,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133764261}
   m_CullTransparentMesh: 1
+--- !u!114 &1133764266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133764261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f98820a923dc4b4cb2e6eb8163c38c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
 --- !u!1 &1146202735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,6 +3113,7 @@ GameObject:
   - component: {fileID: 1157963012}
   - component: {fileID: 1157963015}
   - component: {fileID: 1157963016}
+  - component: {fileID: 1157963017}
   m_Layer: 5
   m_Name: Green_Gem
   m_TagString: Untagged
@@ -3211,6 +3268,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myCanvas: {fileID: 58036646}
+  id: 3
+--- !u!225 &1157963017
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157963010}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!4 &1227898680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 286515923220640415, guid: 43f721938eefcb448ab3d17bfa0cf07a, type: 3}
@@ -3534,6 +3604,7 @@ GameObject:
   - component: {fileID: 1765743530}
   - component: {fileID: 1765743529}
   - component: {fileID: 1765743528}
+  - component: {fileID: 1765743531}
   m_Layer: 5
   m_Name: Green_Gem-Black
   m_TagString: Untagged
@@ -3649,6 +3720,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765743526}
   m_CullTransparentMesh: 1
+--- !u!114 &1765743531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765743526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f98820a923dc4b4cb2e6eb8163c38c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
 --- !u!1 &1826135515
 GameObject:
   m_ObjectHideFlags: 0
@@ -8375,7 +8459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1951753302
 RectTransform:
   m_ObjectHideFlags: 0

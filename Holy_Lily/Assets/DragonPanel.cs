@@ -37,6 +37,7 @@ public class DragonPanel : MonoBehaviour
         if (collision.tag == "Player")
         {
             playerIsClose = false;
+            notePanel.SetActive(false);
         }
     }
 }

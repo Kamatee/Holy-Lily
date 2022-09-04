@@ -13,6 +13,7 @@ public class SlotScriptDragon : MonoBehaviour, IDropHandler
         if (eventData.pointerDrag.GetComponent<DragonGemMoveSystem>().id == id)
         {
             Debug.Log("Correct");
+            GameObject.Find("PointHandler").GetComponent<DragonWin>().AddPoints();
         }
         else
         {

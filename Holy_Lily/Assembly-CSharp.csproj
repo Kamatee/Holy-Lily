@@ -63,10 +63,11 @@
     <Compile Include="Assets\scripts\Dragon\DragonGemMoveSystem.cs" />
     <Compile Include="Assets\scripts\StairsUpFloor.cs" />
     <Compile Include="Assets\scripts\StairsDownFloor.cs" />
+    <Compile Include="Assets\scripts\Dragon\SlotScriptDragon.cs" />
     <Compile Include="Assets\scripts\PlayerMovement.cs" />
     <Compile Include="Assets\scripts\StartMenu.cs" />
     <Compile Include="Assets\scripts\PlayerDeath.cs" />
-    <Compile Include="Assets\scripts\Dragon\SlotScriptDragon.cs" />
+    <Compile Include="Assets\scripts\Dragon\DragonWin.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -24,6 +24,7 @@ public class Pickup : MonoBehaviour
                     inventory.isFull[i] = true;
                     Instantiate(itemButton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
+                    GameObject.Find("Dragon").GetComponent<DragonPanel>().GemsToUnlock();
                     break;
                 }
             }

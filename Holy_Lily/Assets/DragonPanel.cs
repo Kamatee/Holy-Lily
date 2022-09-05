@@ -8,11 +8,12 @@ public class DragonPanel : MonoBehaviour
 {
     public GameObject notePanel;
     public bool playerIsClose;
+    public int gemsToUnlock = 0;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose && gemsToUnlock == 3)
         {
             if (notePanel.activeInHierarchy)
             {
@@ -39,5 +40,11 @@ public class DragonPanel : MonoBehaviour
             playerIsClose = false;
             notePanel.SetActive(false);
         }
+    }
+
+    public void GemsToUnlock()
+    {
+        gemsToUnlock++;
+        Debug.Log("liczba gemów: " + gemsToUnlock);
     }
 }

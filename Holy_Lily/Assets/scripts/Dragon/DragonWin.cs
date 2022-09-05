@@ -19,7 +19,6 @@ public class DragonWin : MonoBehaviour
         if(currentPoints >= pointsToWin)
         {
             //tutaj wywo³aæ panel
-            Debug.Log("wygra³eœ");
             //ustawia napis na panelu
             transform.GetChild(0).gameObject.SetActive(true);
             

@@ -60,7 +60,7 @@
     <Compile Include="Assets\scripts\CameraController.cs" />
     <Compile Include="Assets\scripts\NotePanel.cs" />
     <Compile Include="Assets\Enemy\EnemyAI.cs" />
-    <Compile Include="Assets\scripts\ItemCollect.cs" />
+    <Compile Include="Assets\scripts\HouseFilp.cs" />
     <Compile Include="Assets\scripts\DragonPanel.cs" />
     <Compile Include="Assets\scripts\Dragon\DragonWin.cs" />
     <Compile Include="Assets\scripts\Dragon\DragonGemMoveSystem.cs" />
@@ -71,6 +71,7 @@
     <Compile Include="Assets\scripts\StartMenu.cs" />
     <Compile Include="Assets\scripts\PlayerDeath.cs" />
     <Compile Include="Assets\scripts\Pickup.cs" />
+    <Compile Include="Assets\scripts\StartAnim.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

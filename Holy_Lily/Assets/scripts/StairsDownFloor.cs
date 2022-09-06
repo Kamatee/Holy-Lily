@@ -15,7 +15,7 @@ public class StairsDownFloor : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown("down") && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             player.transform.position = new Vector2(portal.transform.position.x, portal.transform.position.y);
         }

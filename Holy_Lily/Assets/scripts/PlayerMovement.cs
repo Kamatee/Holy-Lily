@@ -30,12 +30,12 @@ public class PlayerMovement : MonoBehaviour
         //kied lewy shift wciœniety postaæ przyœpiesza
         if (Input.GetKey(KeyCode.LeftShift))
         {             
-            moveSpeed = 15f;
+            moveSpeed = 9f;
             anim.SetBool("run", true);
         }
         else
         {
-            moveSpeed = 7f;
+            moveSpeed = 4f;
             anim.SetBool("run", false);
         }
         

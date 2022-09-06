@@ -547,7 +547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50978544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -97.5, y: -28.2, z: 0}
+  m_LocalPosition: {x: -5.3, y: -1.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -119577,6 +119577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemButton: {fileID: 1845916716038734026, guid: 740f40245b21ba646bbf7426d16bcc64, type: 3}
+  playerIsClose: 0
 --- !u!61 &881143805
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -120208,6 +120209,7 @@ GameObject:
   - component: {fileID: 945628001}
   - component: {fileID: 945628000}
   - component: {fileID: 945627999}
+  - component: {fileID: 945628002}
   m_Layer: 0
   m_Name: GreenOrbPu
   m_TagString: Untagged
@@ -120222,13 +120224,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945627997}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.67, y: 31.7, z: 2.3771162}
+  m_LocalRotation: {x: -0.000012170756, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.45, y: -0.67, z: 2.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146202736}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.001, y: 0, z: 0}
 --- !u!114 &945627999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120242,6 +120244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemButton: {fileID: 5825210609259704235, guid: ba949e2e926905b4dbf5a85214fe9a8b, type: 3}
+  playerIsClose: 0
 --- !u!61 &945628000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -120255,7 +120258,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.008319855, y: 0.011445999}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -120266,7 +120269,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.25}
+  m_Size: {x: 0.46849823, y: 0.3665352}
   m_EdgeRadius: 0
 --- !u!212 &945628001
 SpriteRenderer:
@@ -120319,6 +120322,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &945628002
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945627997}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0017585754, y: 0.028159142}
+  m_Size: {x: 0.13033295, y: 0.19368172}
+  m_Direction: 0
 --- !u!1 &1061806627
 GameObject:
   m_ObjectHideFlags: 0
@@ -121327,6 +121346,7 @@ GameObject:
   - component: {fileID: 1421075796}
   - component: {fileID: 1421075794}
   - component: {fileID: 1421075795}
+  - component: {fileID: 1421075797}
   m_Layer: 0
   m_Name: BlueOrbPu
   m_TagString: Untagged
@@ -121342,7 +121362,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421075792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 106.96, y: 0.28, z: 2.3771162}
+  m_LocalPosition: {x: -11.3, y: -0.8, z: 2.3771162}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146202736}
@@ -121361,6 +121381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemButton: {fileID: 6068121432410217692, guid: 78253afe48902cb41a2113fce9491de9, type: 3}
+  playerIsClose: 0
 --- !u!61 &1421075795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -121374,7 +121395,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.025993347, y: 0.19707045}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -121385,7 +121406,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.25}
+  m_Size: {x: 1.2340393, y: 0.6441409}
   m_EdgeRadius: 0
 --- !u!212 &1421075796
 SpriteRenderer:
@@ -121438,6 +121459,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1421075797
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421075792}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0038909912, y: -0.0213933}
+  m_Size: {x: 0.07107544, y: 0.121640205}
+  m_Direction: 0
 --- !u!1 &1461240263
 GameObject:
   m_ObjectHideFlags: 0
@@ -123129,6 +123166,7 @@ GameObject:
   - component: {fileID: 1842873833}
   - component: {fileID: 1842873832}
   - component: {fileID: 1842873831}
+  - component: {fileID: 1842873834}
   m_Layer: 0
   m_Name: RedOrbPu
   m_TagString: Untagged
@@ -123144,7 +123182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842873829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.83, y: -53.71, z: 2.3771162}
+  m_LocalPosition: {x: -2.2, y: -0.3, z: 2.3771162}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146202736}
@@ -123163,6 +123201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemButton: {fileID: 1326771367203958561, guid: c4a9f62fb9fe0204b93073ca2cbcefbf, type: 3}
+  playerIsClose: 0
 --- !u!61 &1842873832
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -123176,7 +123215,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.009178162, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -123187,7 +123226,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.25}
+  m_Size: {x: 0.55155945, y: 0.48075867}
   m_EdgeRadius: 0
 --- !u!212 &1842873833
 SpriteRenderer:
@@ -123240,6 +123279,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1842873834
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842873829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0013084412, y: 0.0026226044}
+  m_Size: {x: 0.12151337, y: 0.12413406}
+  m_Direction: 0
 --- !u!1 &1848502956
 GameObject:
   m_ObjectHideFlags: 0

@@ -168,12 +168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Kto\u015B narysowa\u0142 dziwne symbole, \u017Cadnego z nich nie rozpoznajesz"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &20955996
 BoxCollider2D:
@@ -654,8 +651,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1073244109
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b758f33ad53f67f429f27534688b2513, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -676,7 +673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50978544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -99.36, y: -26.89, z: 0}
+  m_LocalPosition: {x: 79.6, y: -53.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -919,12 +916,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Nie dzia\u0142a, nie ma pr\u0105du"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &79380510
 BoxCollider2D:
@@ -1048,12 +1042,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Czysty n\xF3\u017C"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &80953605
 BoxCollider2D:
@@ -1283,12 +1274,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - dziwne symbole
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &90534234
 BoxCollider2D:
@@ -1553,12 +1541,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - Lady Agnew
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &159386255
 BoxCollider2D:
@@ -118368,12 +118353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "jeszcze \u015Bwie\u017Ce"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &216725837
 BoxCollider2D:
@@ -118754,12 +118736,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "1876 Rodzina Nills\xF3w"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &305560792
 BoxCollider2D:
@@ -119207,7 +119186,7 @@ Transform:
   m_LocalScale: {x: 3.1773, y: 3.1773, z: 3.1773}
   m_Children: []
   m_Father: {fileID: 476781329}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &475190610
 MonoBehaviour:
@@ -119221,12 +119200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Zamkni\u0119ta"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &475190611
 BoxCollider2D:
@@ -119338,8 +119314,8 @@ Transform:
   - {fileID: 1828613553}
   - {fileID: 90534232}
   - {fileID: 1321008327}
-  - {fileID: 475190609}
   - {fileID: 1093959122}
+  - {fileID: 475190609}
   - {fileID: 1574901773}
   - {fileID: 1868914918}
   - {fileID: 20955994}
@@ -119395,14 +119371,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1848502957}
-  - {fileID: 918698145}
   m_Father: {fileID: 58036647}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00021362, y: 0}
-  m_SizeDelta: {x: 923.0003, y: 231.7062}
+  m_AnchoredPosition: {x: -18.035, y: 0.000011444}
+  m_SizeDelta: {x: 759.2966, y: 179.7368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &484086453
 MonoBehaviour:
@@ -120485,12 +120460,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "suszone zio\u0142a"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &691292887
 BoxCollider2D:
@@ -120614,12 +120586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - Rosallia Nills
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &753740093
 BoxCollider2D:
@@ -120743,12 +120712,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - Edward Nills
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &757537295
 BoxCollider2D:
@@ -120872,12 +120838,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "sprawiedliwo\u015B\u0107 jest \u015Blepa"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &768301097
 BoxCollider2D:
@@ -121142,12 +121105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Od dawna nie u\u017Cywany kominek"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &819449734
 BoxCollider2D:
@@ -121346,12 +121306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "brakuje kilku no\u017Cy"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &848344382
 BoxCollider2D:
@@ -121475,12 +121432,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - Gotowy do nakrycia
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &851729796
 BoxCollider2D:
@@ -121951,12 +121905,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - Elaine
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &890042756
 BoxCollider2D:
@@ -122176,139 +122127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 2
---- !u!1 &918698144
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 918698145}
-  - component: {fileID: 918698148}
-  - component: {fileID: 918698147}
-  - component: {fileID: 918698146}
-  m_Layer: 5
-  m_Name: ContinueButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &918698145
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918698144}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1461240264}
-  m_Father: {fileID: 484086452}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -40.26999, y: 10.041}
-  m_SizeDelta: {x: 80.40173, y: 19.8923}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &918698146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918698144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 918698147}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1350245689}
-        m_TargetAssemblyTypeName: NotePanel, Assembly-CSharp
-        m_MethodName: NextLine
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &918698147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918698144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &918698148
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918698144}
-  m_CullTransparentMesh: 1
 --- !u!1 &925837971
 GameObject:
   m_ObjectHideFlags: 0
@@ -122681,12 +122499,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - Kilku brakuje
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1055945802
 BoxCollider2D:
@@ -123218,12 +123033,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Orientalna waza z wizerunkiem smoka, wygl\u0105da na drog\u0105"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1092028739
 BoxCollider2D:
@@ -123333,7 +123145,7 @@ Transform:
   m_LocalScale: {x: 3.1773, y: 3.1773, z: 3.1773}
   m_Children: []
   m_Father: {fileID: 476781329}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1093959123
 MonoBehaviour:
@@ -123347,12 +123159,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Ogromny \u017Cyrandol \u0142adnie odbija \u015Bwiat\u0142o"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1093959124
 BoxCollider2D:
@@ -123476,12 +123285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Kto\u015B otworzy\u0142 kopert\u0119 no\u017Cem"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1096091029
 BoxCollider2D:
@@ -124045,12 +123851,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "uschni\u0119te resztki kwiat\xF3w"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1321008329
 BoxCollider2D:
@@ -124268,12 +124071,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - Notatka 1      23.07.1999
-  contButton: {fileID: 918698144}
-  wordSpeed: 0.06
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!1 &1421075792
 GameObject:
@@ -124416,85 +124216,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0038909912, y: -0.0213933}
   m_Size: {x: 0.07107544, y: 0.121640205}
   m_Direction: 0
---- !u!1 &1461240263
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1461240264}
-  - component: {fileID: 1461240266}
-  - component: {fileID: 1461240265}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1461240264
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461240263}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 918698145}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1461240265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461240263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: ec8b89dc9a9027644868b0489502975b, type: 3}
-    m_FontSize: 9
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Continue
---- !u!222 &1461240266
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461240263}
-  m_CullTransparentMesh: 1
 --- !u!1 &1465114125
 GameObject:
   m_ObjectHideFlags: 0
@@ -124868,12 +124589,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - House Flipper
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1574901775
 BoxCollider2D:
@@ -125220,12 +124938,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - Ofelia
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1638795532
 BoxCollider2D:
@@ -126398,12 +126113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Kartka z rysunkami kwiat\xF3w, jest ca\u0142a pokre\u015Blona"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1828613555
 BoxCollider2D:
@@ -126657,8 +126369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 461.5, y: -0.000013232}
-  m_SizeDelta: {x: 788.1523, y: 152.1892}
+  m_AnchoredPosition: {x: 379.65, y: 6.4962}
+  m_SizeDelta: {x: 693.25, y: 131.4013}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848502958
 MonoBehaviour:
@@ -126747,12 +126459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Drzwi wygl\u0105daj\u0105 jakby zaatakowa\u0142 je nied\u017Awied\u017A"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1868914920
 BoxCollider2D:
@@ -127024,12 +126733,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Obicie jest poplamione ciemnoczerwon\u0105 substancj\u0105"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1918529823
 BoxCollider2D:
@@ -127295,12 +127001,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - 
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1945434861
 BoxCollider2D:
@@ -127541,12 +127244,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "zamkni\u0119te"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &1957003790
 BoxCollider2D:
@@ -127670,12 +127370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a22cd357bb17340960541f484a40b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notePanel: {fileID: 484086451}
-  noteText: {fileID: 1848502958}
-  note:
-  - "Nie dzia\u0142a, nie ma pr\u0105du"
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  notePanel: {fileID: 0}
+  noteText: {fileID: 0}
+  note: 
   playerIsClose: 0
 --- !u!61 &2005499874
 BoxCollider2D:
@@ -127801,13 +127498,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   notePanel: {fileID: 484086451}
   noteText: {fileID: 1848502958}
-  note:
-  - "Mi\u0119dzy ksi\u0105\u017Cki le\u017C\u0105ce na biurku kto\u015B wcisn\u0105\u0142
-    urwan\u0105 kartk\u0119 papieru: Odwieczny symbol dobrobytu: Krocz\u0119 przynosz\u0105c
-    odrodzenie i dary natury, \u0141eb wznosz\u0119 ku czysto\u015Bci i pokoju, Pod\u0105\u017Ca
-    za mn\u0105 wojna i krew."
-  contButton: {fileID: 0}
-  wordSpeed: 0
+  note: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into
+    electronic typesetting, remaining essentially unchanged. It was popularised in
+    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+    and more recently with desktop publishing software like Aldus PageMaker including
+    versions of Lorem Ipsum.  '
   playerIsClose: 0
 --- !u!61 &2059500577
 BoxCollider2D:

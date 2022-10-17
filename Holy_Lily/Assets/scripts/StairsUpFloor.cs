@@ -25,6 +25,7 @@ public class StairsUpFloor : MonoBehaviour
         if (collision.tag == "Player")
         {
             playerIsClose = true;
+           
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

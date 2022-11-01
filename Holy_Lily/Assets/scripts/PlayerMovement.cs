@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         dirX = Input.GetAxisRaw("Horizontal");
         //kied lewy shift wciœniety postaæ przyœpiesza
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)))
         {             
             moveSpeed = 9f;
             anim.SetBool("run", true);

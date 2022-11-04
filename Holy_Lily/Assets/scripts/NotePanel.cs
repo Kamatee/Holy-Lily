@@ -11,6 +11,8 @@ public class NotePanel : MonoBehaviour
     public Text noteText;
     public string note;
     public bool playerIsClose;
+    //Audio
+    [SerializeField] private AudioSource openGlitEffect;
 
 
 
@@ -25,6 +27,8 @@ public class NotePanel : MonoBehaviour
             }
             else
             {
+                //Audio PLAY
+                openGlitEffect.Play();
                 notePanel.SetActive(true);
                 noteText.text = note;
             }

@@ -25,6 +25,7 @@ public class DragonWin : MonoBehaviour
             winSoundEffect.Play();
             AddPoints();
 
+
         }
     }
 

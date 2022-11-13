@@ -7,6 +7,8 @@ public class Pickup : MonoBehaviour
     private Inventory inventory;
     public GameObject itemButton;
     public bool playerIsClose;
+    [SerializeField] public int objectId;
+
 
     private void Start()
     {
@@ -25,31 +27,16 @@ public class Pickup : MonoBehaviour
                     inventory.isFull[i] = true;
                     Instantiate(itemButton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
-                    GameObject.Find("Dragon").GetComponent<DragonPanel>().GemsToUnlock();
+                    // sprawdzanie czy item to gem czy motyl (ID dla motyla 2!!!)
+                    if (objectId == 1)
+                    {
+                        GameObject.Find("Dragon").GetComponent<DragonPanel>().GemsToUnlock();
+                    }
                     break;
                 }
             }
         }
     }
-
-    /* void OnTriggerEnter2D(Collider2D other)
-     {
-         if (other.tag == "Player" && Input.GetKeyDown(KeyCode.E))
-         {
-             for (int i = 0; i < inventory.slots.Length; i++)
-             {
-                 if (inventory.isFull[i] == false)
-                 {
-                     //item can be added to inventory
-                     inventory.isFull[i] = true;
-                     Instantiate(itemButton, inventory.slots[i].transform, false);
-                     Destroy(gameObject);
-                     GameObject.Find("Dragon").GetComponent<DragonPanel>().GemsToUnlock();
-                     break;
-                 }
-             }
-         }
-     }*/
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

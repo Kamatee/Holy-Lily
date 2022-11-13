@@ -9,6 +9,7 @@ public class DragonPanel : MonoBehaviour
     public GameObject notePanel;
     public bool playerIsClose;
     public int gemsToUnlock = 0;
+    [SerializeField] private AudioSource openPanelSound;
 
     // Update is called once per frame
     void Update()
@@ -21,6 +22,7 @@ public class DragonPanel : MonoBehaviour
             }
             else
             {
+                openPanelSound.Play();
                 notePanel.SetActive(true);
             }
         }

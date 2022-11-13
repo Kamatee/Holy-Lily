@@ -7,7 +7,8 @@ public class DragonWin : MonoBehaviour
     private int pointsToWin;
     private int currentPoints;
     public GameObject gems;
-    
+    [SerializeField] private AudioSource winSoundEffect;
+
     void Start()
     {
         pointsToWin = gems.transform.childCount;
@@ -16,13 +17,14 @@ public class DragonWin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentPoints >= pointsToWin)
+        if(currentPoints == pointsToWin)
         {
             //tutaj wywo³aæ panel
-            Debug.Log("wygra³eœ");
             //ustawia napis na panelu
             transform.GetChild(0).gameObject.SetActive(true);
-            
+            winSoundEffect.Play();
+            AddPoints();
+
         }
     }
 

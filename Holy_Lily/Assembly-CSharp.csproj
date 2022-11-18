@@ -56,17 +56,18 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\scripts\Inventory.cs" />
+    <Compile Include="Assets\scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\scripts\CameraController.cs" />
-    <Compile Include="Assets\scripts\NotePanel.cs" />
+    <Compile Include="Assets\scripts\Panels\NotePanel.cs" />
     <Compile Include="Assets\scripts\LysaDie.cs" />
     <Compile Include="Assets\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\scripts\HouseFilp.cs" />
     <Compile Include="Assets\scripts\Butterfly\ButterflyWins.cs" />
-    <Compile Include="Assets\scripts\ButterflyPanelScript.cs" />
-    <Compile Include="Assets\scripts\DragonPanel.cs" />
+    <Compile Include="Assets\scripts\Butterfly\ButterflyPanelScript.cs" />
+    <Compile Include="Assets\scripts\Panels\DragonPanel.cs" />
     <Compile Include="Assets\scripts\StartAnim.cs" />
     <Compile Include="Assets\scripts\Dragon\DragonWin.cs" />
+    <Compile Include="Assets\scripts\Butterfly\SlotButterflies.cs" />
     <Compile Include="Assets\scripts\Dragon\DragonGemMoveSystem.cs" />
     <Compile Include="Assets\scripts\StairsUpFloor.cs" />
     <Compile Include="Assets\scripts\StairsDownFloor.cs" />
@@ -75,8 +76,9 @@
     <Compile Include="Assets\scripts\StartMenu.cs" />
     <Compile Include="Assets\scripts\Butterfly\MoveSystem.cs" />
     <Compile Include="Assets\scripts\PlayerDeath.cs" />
-    <Compile Include="Assets\scripts\Pickup.cs" />
-    <Compile Include="Assets\SlotButterflies.cs" />
+    <Compile Include="Assets\scripts\Inventory\Pickup.cs" />
+    <Compile Include="Assets\scripts\Inventory\InventoryButterfly.cs" />
+    <Compile Include="Assets\scripts\Inventory\PlayerInventoryPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

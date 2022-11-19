@@ -6,11 +6,12 @@ public class ButterflyPanelScript : MonoBehaviour
 {
     public GameObject butterflyPanel;
     public bool playerIsClose;
+    public int butterflyToUnlock = 0;
     [SerializeField] private AudioSource openPanelSound;
     // Start is called before the first frame update
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose && butterflyToUnlock == 4)
         {
             if (butterflyPanel.activeInHierarchy)
             {
@@ -39,6 +40,11 @@ public class ButterflyPanelScript : MonoBehaviour
             butterflyPanel.SetActive(false);
         }
     }
+    public void ButterflyToUnlock()
+    {
+        butterflyToUnlock++;
+        Debug.Log("liczba motyli: " + butterflyToUnlock);
+    }
 
-    
+
 }

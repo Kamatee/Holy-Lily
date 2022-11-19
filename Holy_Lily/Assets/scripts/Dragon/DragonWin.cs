@@ -23,6 +23,8 @@ public class DragonWin : MonoBehaviour
             //ustawia napis na panelu
             transform.GetChild(0).gameObject.SetActive(true);
             winSoundEffect.Play();
+            GameObject.Find("LilyEntrance").GetComponent<DoorsToUnlock>().OpenDoors();
+            //tutaj u¿yæ funkcji która ma otworzyæ drzwi
             AddPoints();
 
 

@@ -43,6 +43,7 @@ public class Pickup : MonoBehaviour
                     inventorybut.isFull[i] = true;
                     Instantiate(itemButton, inventorybut.slots[i].transform, false);
                     Destroy(gameObject);
+                    GameObject.Find("AtlasOfButterflies").GetComponent<ButterflyPanelScript>().ButterflyToUnlock();
                     break;
                 }
             }

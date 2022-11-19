@@ -9,6 +9,7 @@ public class Pickup : MonoBehaviour
     public GameObject itemButton;
     public bool playerIsClose;
     [SerializeField] public int objectId;
+    [SerializeField] private AudioSource getItemEffect;
 
 
     private void Start()
@@ -18,36 +19,42 @@ public class Pickup : MonoBehaviour
     }
     private void Update()
     {
-        if (playerIsClose == true && Input.GetKeyDown(KeyCode.E) && objectId == 1)
+        if (playerIsClose == true && Input.GetKeyDown(KeyCode.E))
         {
-            for (int i = 0; i < inventorygem.slots.Length; i++)
+            getItemEffect.Play();
+
+            if (objectId == 1)
             {
-                if (inventorygem.isFull[i] == false)
+                for (int i = 0; i < inventorygem.slots.Length; i++)
                 {
-                    //item can be added to inventory(gem)
-                    inventorygem.isFull[i] = true;
-                    Instantiate(itemButton, inventorygem.slots[i].transform, false);
-                    Destroy(gameObject);
-                    GameObject.Find("Dragon").GetComponent<DragonPanel>().GemsToUnlock();
-                    break;
+                    if (inventorygem.isFull[i] == false)
+                    {
+                        //item can be added to inventory(gem)
+                        inventorygem.isFull[i] = true;
+                        Instantiate(itemButton, inventorygem.slots[i].transform, false);
+                        Destroy(gameObject);
+                        GameObject.Find("Dragon").GetComponent<DragonPanel>().GemsToUnlock();
+                        break;
+                    }
+                }
+            }
+            else if(objectId == 2)
+            {
+                for (int i = 0; i < inventorybut.slots.Length; i++)
+                {
+                    if (inventorybut.isFull[i] == false)
+                    {
+                        //item can be added to inventory(butterfly)
+                        inventorybut.isFull[i] = true;
+                        Instantiate(itemButton, inventorybut.slots[i].transform, false);
+                        Destroy(gameObject);
+                        GameObject.Find("AtlasOfButterflies").GetComponent<ButterflyPanelScript>().ButterflyToUnlock();
+                        break;
+                    }
                 }
             }
         }
-        else if (playerIsClose == true && Input.GetKeyDown(KeyCode.E) && objectId == 2)
-        {
-            for (int i = 0; i < inventorybut.slots.Length; i++)
-            {
-                if (inventorybut.isFull[i] == false)
-                {
-                    //item can be added to inventory(butterfly)
-                    inventorybut.isFull[i] = true;
-                    Instantiate(itemButton, inventorybut.slots[i].transform, false);
-                    Destroy(gameObject);
-                    GameObject.Find("AtlasOfButterflies").GetComponent<ButterflyPanelScript>().ButterflyToUnlock();
-                    break;
-                }
-            }
-        }
+      
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

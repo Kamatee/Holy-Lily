@@ -19,5 +19,13 @@ public class PlayerInventoryPanel : MonoBehaviour
                 inventoryPanel.SetActive(true);
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+        {
+            if (inventoryPanel.activeInHierarchy)
+            {
+                inventoryPanel.SetActive(false);
+            }
+        }
     }
 }

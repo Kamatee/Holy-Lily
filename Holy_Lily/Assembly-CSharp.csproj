@@ -79,6 +79,10 @@
     <Compile Include="Assets\scripts\Butterfly\MoveSystem.cs" />
     <Compile Include="Assets\scripts\PlayerDeath.cs" />
     <Compile Include="Assets\scripts\Inventory\Pickup.cs" />
+    <Compile Include="Assets\scripts\GameOver.cs" />
+    <Compile Include="Assets\scripts\Quit.cs" />
+    <Compile Include="Assets\EndGame.cs" />
+    <Compile Include="Assets\scripts\MusicManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

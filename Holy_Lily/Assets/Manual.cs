@@ -7,13 +7,13 @@ public class Manual : MonoBehaviour
 {
     [SerializeField] public GameObject notePanel;
     [SerializeField] public bool playerIsClose;
+    [SerializeField] private int num;
 
     // Update is called once per frame
     void Update()
     {
-        if (playerIsClose)
+        if (playerIsClose == true && num == 0)
         {
-
             notePanel.SetActive(true);
         }
             else
@@ -35,6 +35,10 @@ public class Manual : MonoBehaviour
         {
             playerIsClose = false;
             notePanel.SetActive(false);
+            if (num == 0)
+            {
+                num = num + 1;
+            }
         }
     }
 }
